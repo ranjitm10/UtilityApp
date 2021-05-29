@@ -168,7 +168,7 @@ console.log(`${input} Fahrenheit = ${(((input - 32)*5/9)+273.15).toFixed(2)} Kel
 
 const crypto = require('crypto');
 const readLineSync = require('readline-sync');
-const selectedUtility = parseInt(readLineSync.question('Welcome to URL Encoder/Decoder.\n1. urlEncode\n2. urlDecode\n3. Binary to Decimal\n4. Binary to Hex\n5. Binary to Octal\n6. Decimal to Binary\n7. Decimal to Hex\n8. Decimal to Octal \n9. Hex to Binary\n10. Hex to Decimal\n11. Hex to Octal\n12. Octal to Binary\n13. Octal to Decimal\n14. Octal to Hex\n15. md5\n16. sha-1\n17. sha-256\n18. sha-512\n19. Convert to HumanDate\n20. Convert to Epoch\n21. RGB to Hex\n22. Hex to RGB\n23. Celsius -> Kelvin\n24. Celsius -> Fahrenheit\n25. Kelvin -> Celsius\n26. Kelvin -> Fahrenheit\n27. Fahrenheit -> Celsius\n28. Fahrenheit -> Kelvin\n0. Exit\nSelect your utility to use: '));
+const selectedUtility = parseInt(readLineSync.question('Welcome to Utility Apps.\n1. urlEncode\n2. urlDecode\n3. Binary to Decimal\n4. Binary to Hex\n5. Binary to Octal\n6. Decimal to Binary\n7. Decimal to Hex\n8. Decimal to Octal \n9. Hex to Binary\n10. Hex to Decimal\n11. Hex to Octal\n12. Octal to Binary\n13. Octal to Decimal\n14. Octal to Hex\n15. md5\n16. sha-1\n17. sha-256\n18. sha-512\n19. Convert to HumanDate\n20. Convert to Epoch\n21. RGB to Hex\n22. Hex to RGB\n23. Celsius -> Kelvin\n24. Celsius -> Fahrenheit\n25. Kelvin -> Celsius\n26. Kelvin -> Fahrenheit\n27. Fahrenheit -> Celsius\n28. Fahrenheit -> Kelvin\n0. Exit\nSelect your utility to use: '));
 
 function main(selectedUtility){
 switch (selectedUtility){
